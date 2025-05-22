@@ -16,20 +16,24 @@ Execução
     ou
     ./hello.py
 """
+
+# Dunder (Double underline) -> __
 __version__= "0.0.1"
 __author__= "Rapha"
 __license__= "Unlicense"
-# Dunder (Double underline) -> __
+
+# Native Python lib. to communicate with the Operating System
 
 import os
 
+# CurrentLanguage -> Pascal Case
+# current_language -> Snake Case
 current_language = os.getenv("LANG", "en_us")[:5]
 
-# current_language -> Snake Case
-# CurrentLanguage -> Pascal Case
-
+# Variable
 msg = "Hello World!"
 
+# Condition (statment) blocks
 if current_language == "pt_BR":
     msg = "Olá Mundo!"
 elif current_language == "it_IT":
