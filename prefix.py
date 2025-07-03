@@ -112,6 +112,7 @@ n1, n2 = validated_nums
 finally, the last condition block that checks which operation the program
 should do and prints the result
 """
+# TODO: Use func dict
 if operation == "sum":
     result = n1 + n2
 elif operation == "sub":
